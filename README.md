@@ -2,7 +2,7 @@
 **A Comparative Study of Deep Learning Models for Clinical Analytics**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/CVD_Prediction.ipynb
+https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/code.ipynb
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **TL;DR:** A controlled experiment comparing CNN and LSTM architectures for classifying cardiovascular disease from structured patient data. Key finding: The LSTM model, leveraging temporal patterns, achieved a superior average accuracy of 91.8% with efficient training.
@@ -27,7 +27,7 @@ https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/CVD
 
 ##  Analytical Workflow & Notebook Structure
 
-The analysis follows a structured, reproducible pipeline in `CVD_Prediction.ipynb`:
+The analysis follows a structured, reproducible pipeline in `code.ipynb`:
 
 | Block |              Content.            |                                  Purpose                             |
 |-------|----------------------------------|----------------------------------------------------------------------|
@@ -45,7 +45,7 @@ The analysis follows a structured, reproducible pipeline in `CVD_Prediction.ipyn
 
 ### **Option A: One-Click Live Demo (Recommended)**
 The easiest way to review the full analysis is in Google Colab:
-1.  Click the **[Open In Colab](https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/CVD_Prediction.ipynb)** badge above.
+1.  Click the **[Open In Colab](https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/code.ipynb)** badge above.
 2.  In Colab, go to **Runtime > Run all** (`Ctrl+F9` / `Cmd+F9`).
 
 ### **Option B: Run Locally**
@@ -61,7 +61,7 @@ The easiest way to review the full analysis is in Google Colab:
     *The `Dataset.csv` file is included in this repository.*
 3.  **Launch** Jupyter and open the notebook:
     ```bash
-    jupyter notebook CVD_Prediction.ipynb
+    jupyter notebook code.ipynb
     ```
 
 ---
@@ -69,17 +69,10 @@ The easiest way to review the full analysis is in Google Colab:
 ##  Project Contents
 
 **Root Files:**
-- `CVD_Prediction.ipynb` - Main analysis notebook
+- `code.ipynb` - Main analysis notebook
 - `README.md` - This documentation
 - `requirements.txt` - Python package dependencies  
 - `Dataset.csv` - The labeled dataset for classification
-
-**Generated Outputs (not version controlled):**
-- `results/` - Auto-generated experiment results
-  - `roberta_baseline/` - Results from Experiment 1
-  - `roberta_advanced/` - Results from Experiment 2  
-  - `mentalroberta_baseline/` - Results from Experiment 3
-  - `mentalroberta_advanced/` - Results from Experiment 4
 
 ---
 

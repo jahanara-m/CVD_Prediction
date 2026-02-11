@@ -18,10 +18,9 @@ https://colab.research.google.com/github/jahanara-m/CVD_Prediction/blob/main/cod
 
 ---
 
-##  Key Insight & Recommendation
+##  Key Insight
 
-**Finding:** The LSTM model slightly outperformed the CNN, suggesting it is better at capturing sequential dependencies in patient data, even when the temporal ordering is not explicitly defined by dates. This aligns with clinical reasoning where patient state evolves over time.
-**Recommendation:** For structured tabular health data, an LSTM model with careful data preparation is the recommended starting point for classification tasks, providing strong performance without excessive complexity.
+**Finding:** The LSTM model slightly outperformed the CNN, suggesting it is better at capturing sequential dependencies in patient data, even when the temporal ordering is not explicitly defined by dates. This aligns with clinical reasoning where patient state evolves over time. For structured tabular health data, an LSTM model with careful data preparation is the recommended starting point for classification tasks, providing strong performance without excessive complexity.
 
 ---
 
